@@ -1,0 +1,67 @@
+.container {
+  background-image: url('../../assets/img/background-leaves.png');
+  height: 100vh;
+  width: 100%;
+}
+
+.welcome-box {
+  background: #FFFFFF;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  display: flex;
+  height: 62%;
+  left: 8%;
+  position: absolute;
+  top: 18%;
+  width: 84%;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-box--logo {
+  background-image: url('../../assets/img/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 24%;
+  margin-top: 8%;
+  width: 24%;
+}
+
+.welcome-box--titulo {
+  color: #333333;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+
+  margin-top: 11%;
+}
+
+p {
+  font-size: 1rem;
+  margin: 5% 5% 5% 5%;
+  text-align: center;
+  color: #333333;
+}
+
+button {
+  background-color: #63E1FD;
+  border: none;
+  border-radius: 12px;
+  color: #FFFFFF;
+  font-weight: bold;
+  height: 4rem;
+  margin-top: 3%;
+  width: 84%;
+}
+
+a {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #63E1FD;
+  margin-top: 8%;
+  text-decoration: none;
+}
