@@ -1,0 +1,50 @@
+section {
+  padding: 5%;
+}
+
+.back-button {
+  background-color: #FFFFFF;
+  border: none;
+}
+
+h1 {
+  line-height: 32px;
+  margin-top: 5%;
+}
+
+form {
+  margin-top: 12%;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 19%;
+}
+
+.input:first-child {
+  margin-top: 0;
+}
+
+.input label {
+  opacity: 0.5;
+  line-height: 2;
+}
+
+.input input{
+  outline: 0;
+  border-width: 0 0 2px;
+  border-bottom: 1px solid rgba(33, 33, 33, .2);
+  padding: 0;
+}
+
+.submit-button {
+  background-color: #63E1FD;
+  border: none;
+  border-radius: 12px;
+  color: #FFFFFF;
+  font-weight: bold;
+  height: 4rem;
+  margin-top: 20%;
+  width: 100%;
+}
