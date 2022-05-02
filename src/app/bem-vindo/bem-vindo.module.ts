@@ -3,8 +3,6 @@ import { CommonModule } from '@angular/common';
 import { BemVindoComponent } from './bem-vindo.component';
 import { BemVindoRoutingModule } from './bem-vindo-routing.module';
 
-
-
 @NgModule({
   declarations: [
     BemVindoComponent

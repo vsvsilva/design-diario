@@ -1,0 +1,46 @@
+.cabecalho {
+  background-color: rgba(99, 255, 253, 0.3);
+  border-radius: 0 0 0 169px;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  padding: 5% 5% 0% 5%;
+}
+
+.logo {
+  background: url('../../assets/img/logo.png');
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  height: 7vh;
+  padding: 0;
+  width: 7vh;
+}
+
+.help {
+  margin-left: 64%;
+}
+
+.help-icon {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.perfil {
+  margin-left: 7%;
+}
+
+.botao-perfil {
+  background: url('../../assets/img/female-72.jpg');
+  background-size: contain;
+  border: none;
+  border-radius: 50%;
+  height: 5vh;
+  width: 5vh;
+
+}
