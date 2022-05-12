@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 62%;
+  margin-left: 5%;
+}
+
+.card-imagem {
+  background: url('../../assets/img/card-organizacao.png');
+  border-radius: 12px;
+  width: 100%;
+  background-color: transparent;
+  background-size: 140%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 26vh;
+}
+
+.card-perfil {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 4%;
+}
+
+.card-perfil p {
+  margin-left: 5%;
+}
+
+.card-perfil button {
+  background: url('../../assets/img/female-72.jpg');
+  background-size: contain;
+  border: none;
+  border-radius: 50%;
+  height: 4vh;
+  width: 4vh;
+}
+
+.card-texto {
+  font-weight: bold;
+  line-height: 26px;
+}

@@ -1,12 +1,14 @@
 .cabecalho {
   background-color: rgba(99, 255, 253, 0.3);
   border-radius: 0 0 0 169px;
+  height: 50vh;
+  padding-left: 5%;
 }
 
 header {
   align-items: center;
   display: flex;
-  padding: 5% 5% 0% 5%;
+  padding: 5% 5% 0% 0;
 }
 
 .logo {
@@ -40,7 +42,31 @@ header {
   background-size: contain;
   border: none;
   border-radius: 50%;
-  height: 5vh;
-  width: 5vh;
+  height: 6vh;
+  width: 6vh;
 
+}
+
+h1 {
+  margin-top: 7%;
+}
+
+p {
+  margin-top: 2%;
+  line-height: 26px;
+}
+
+nav {
+  display: flex;
+  margin-top: 7%;
+  overflow-x: auto;
+}
+
+nav::-webkit-scrollbar{
+  width: 0;
+}
+
+nav a{
+  text-align: center;
+  min-width: 110px;
 }
