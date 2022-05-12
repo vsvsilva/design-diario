@@ -1,7 +1,7 @@
 .cabecalho {
   background-color: rgba(99, 255, 253, 0.3);
   border-radius: 0 0 0 169px;
-  height: 50vh;
+  height: 55vh;
   padding-left: 5%;
 }
 
@@ -64,9 +64,35 @@ nav {
 
 nav::-webkit-scrollbar{
   width: 0;
+  height: 0;
 }
 
 nav a{
   text-align: center;
-  min-width: 110px;
+  min-width: 100px;
+  white-space: nowrap;
+}
+
+nav a:first-child {
+  font-weight: bold;
+}
+
+.cards-principal {
+  margin-top: 7%;
+  display: flex;
+  overflow-x: auto;
+}
+
+.card-principal {
+  margin-left: 5%;
+  min-width: 65%;
+}
+
+.card-principal:first-child {
+  margin-left: 0;
+}
+
+.cards-principal::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
